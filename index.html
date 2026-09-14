@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney+ Colombia | Películas, Series y Deportes</title>
+  <link rel="stylesheet" href="estilos/styles.css">
+</head>
+
+<body>
+
+  <section class="iniciar-sesion">
+    <header class="iniciar">
+
+      <a href="https://www.disneyplus.com/identity/login/enter-email" class="btn-login">
+        INICIAR SESIÓN
+      </a>
+
+    </header>
+
+
+    <div class="disney-body">
+      <main class="contenido-principal">
+        <img src="imagenes/logoDisney.png" alt="Disney+ Logo" class="logo-disney">
+
+        <section class="titulos">
+          <h1>
+            Series exclusivas, éxitos del cine,
+            el deporte de ESPN y más
+          </h1>
+
+          <h2>
+            Elige tu plan desde
+            <strong>COP 19.900 / mes¹</strong>
+          </h2>
+
+        </section>
+
+
+        <form class="suscribete-form">
+          <input type="email" placeholder="Correo electrónico" required>
+          <button type="submit" > 
+            SUSCRIBIRME AHORA
+          </button>
+        </form>
+
+
+        <p class="promosion">
+          Ahorra un 18% durante 6 meses en
+          <a href="#">Disney+ Premium.</a>
+          <br>
+          <a href="https://www.disneyplus.com/es-419/commerce/cadence?productType=DISNEY_STANDALONE&package=non_us_disney_premium" class="link-planes">
+            Ver detalles de los planes
+          </a>
+
+        </p>
+
+
+        <div class="marcas">
+          <img src="imagenes/logoDisney.png" alt="Disney">
+          <span>+</span>
+          <img src="imagenes/pixar.png" alt="Pixar">
+          <span>+</span>
+          <img src="imagenes/marvel.png" alt="Marvel">
+          <span>+</span>
+          <img src="imagenes/starwar.png" alt="Star Wars">
+          <span>+</span>
+          <img src="imagenes/nationalgeografic.png" alt="National Geographic">
+          <span>+</span>
+          <img src="imagenes/espn.png" alt="ESPN">
+          <span>+</span>
+          <img src="imagenes/hulu.png" alt="Hulu">
+
+        </div>
+
+        <p class="text">
+
+          Ahorro comparado con el precio mensual actual del plan elegido.
+          Cancela en cualquier momento, con efecto al terminar el período
+          de 6 meses. Podrás acceder al servicio durante ese período.
+
+          Para cancelar de inmediato, comunícate con el
+          <a href="#">Centro de ayuda</a>.
+        </p>
+      </main>
+    </div>
+
+    <footer class="slider-footer">
+      <div class="lineas-carrusel">
+        <span class="linea"></span>
+        <span class="linea"></span>
+        <span class="linea activa"></span>
+        <span class="linea"></span>
+      </div>
+
+      <p class="pie-slider">
+        Avatar: Fire & Ash
+      </p>
+
+    </footer>
+  </section>
+  <section class="seccion">
+    <div class="titulos-1">
+      <h1>Todo el deporte | En vivo</h1>
+      <h2>Tu casa para los grandes eventos deportivos de ESPNen Disney+ con el plan Premium.</h2>
+    </div>
+
+
+    <div class="carrusel-wrapper">
+
+      <button class="flecha-carrusel izq" onclick="scrollCarrusel(this, -1)">&#10094;</button>
+
+
+      <div class="tarjetas-grid">
+        <article class="tarjeta">
+          <div class="imagen-contenedor">
+            <img src="imagenes/walkerop.png" alt="Walker Cup">
+            <span class="badge-vivo">VIVO</span>
+          </div>
+
+
+          <div class="tarjeta-info">
+            <span class="tiempo">Comenzó hace 5 h 14 min</span>
+            <h3>2026 Walker Cup | En español</h3>
+            <span class="categoria">2026</span>
+          </div>
+        </article>
+
+
+        <article class="tarjeta">
+          <div class="imagen-contenedor">
+            <img src="imagenes/compose.webp" alt="Premier Padel">
+            <span class="badge-vivo">VIVO </span>
+          </div>
+
+
+          <div class="tarjeta-info">
+            <span class="tiempo">Comenzó hace 3 h 44 min</span>
+            <h3>Premier Padel: Madrid - Centre Court</h3>
+            <span class="categoria">Premier Padel · 2026</span>
+          </div>
+        </article>
+
+
+
+
+
+        <article class="tarjeta">
+          <div class="imagen-contenedor">
+            <img src="imagenes/paul.webp" alt="Tenis">
+            <span class="badge-vivo">VIVO</span>
+
+          </div>
+
+
+          <div class="tarjeta-info">
+            <span class="tiempo">Comenzó hace 1 h 40 min</span>
+            <h3>T. Paul vs. C. Alcaraz | En español</h3>
+            <span class="categoria">2026</span>
+          </div>
+
+        </article>
+
+        <article class="tarjeta">
+          <div class="imagen-contenedor">
+            <img src="imagenes/court10.webp" alt="Court 10">
+            <span class="badge-vivo">VIVO</span>
+          </div>
+          <div class="tarjeta-info">
+            <span class="tiempo">Comenzó hace 7 h 44 min</span>
+            <h3>Court 10</h3>
+            <span class="categoria">2026</span>
+          </div>
+        </article>
+
+
+        <article class="tarjeta">
+
+          <div class="imagen-contenedor">
+
+            <img src="imagenes/stadio.webp" alt="Stadium">
+
+            <span class="badge-vivo">
+              VIVO
+            </span>
+
+          </div>
+
+
+          <div class="tarjeta-info">
+            <span class="tiempo">Comenzó hace 7 h 44 min</span>
+            <h3>Stadium 17</h3>
+            <span class="categoria">2026</span>
+          </div>
+        </article>
+
+
+
+
+
+        <article class="tarjeta">
+          <div class="imagen-contenedor">
+            <img src="imagenes/pelota.webp" alt="Grandstand">
+            <span class="badge-vivo">VIVO </span>
+
+          </div>
+          <div class="tarjeta-info">
+
+            <span class="tiempo">Comenzó hace 7 h 44 min</span>
+            <h3>Grandstand </h3>
+            <span class="categoria">2026 </span>
+          </div>
+        </article>
+
+
+        <article class="tarjeta">
+          <div class="imagen-contenedor">
+            <img src="imagenes/shelton.webp" alt="Tenis">
+            <span class="badge-vivo">VIVO</span>
+
+          </div>
+
+
+          <div class="tarjeta-info">
+
+            <span class="tiempo">Comenzó hace 6 h 50 min</span>
+
+            <h3>D. Medvedev vs. F. Tiafoe </h3>
+            <span class="categoria">2026</span>
+
+          </div>
+
+        </article>
+      </div>
+      <button class="flecha-carrusel der" onclick="scrollCarrusel(this, 1)">
+        &#10095;
+      </button>
+
+    </div>
+
+  </section>
+
+  <section class="seccion">
+    <div class="titulos-2">
+      <h1>Nostalgia</h1>
+    </div>
+
+
+    <div class="carrusel-wrapper">
+
+      <button class="flecha-carrusel izq" onclick="scrollCarrusel(this, -1)">
+        &#10094;
+      </button>
+
+
+      <div class="tarjetas-grid nostalgia-grid">
+        <article class="tarjeta nostalgia">
+          <div class="imagen-contenedor">
+            <img src="imagenes/camp-rock.webp" alt="Camp Rock">
+          </div>
+        </article>
+
+        <article class="tarjeta nostalgia">
+          <div class="imagen-contenedor">
+            <img src="imagenes/hannamontana.webp" alt="Hannah Montana">
+          </div>
+        </article>
+
+
+        <article class="tarjeta nostalgia">
+          <div class="imagen-contenedor">
+            <img src="imagenes/diarioprinces.webp" alt="Diario de una Princesa">
+          </div>
+        </article>
+
+        <article class="tarjeta nostalgia">
+          <div class="imagen-contenedor">
+            <img src="imagenes/shool.webp" alt="High School Musical">
+          </div>
+        </article>
+
+        <article class="tarjeta nostalgia">
+          <div class="imagen-contenedor">
+            <img src="imagenes/gemelas.webp" alt="Juego de Gemelas">
+          </div>
+        </article>
+
+        <article class="tarjeta nostalgia">
+          <div class="imagen-contenedor">
+            <img src="imagenes/malcom.webp" alt="Juego de Gemelas">
+          </div>
+        </article>
+
+        <article class="tarjeta nostalgia">
+          <div class="imagen-contenedor">
+            <img src="imagenes/diablo.webp" alt="Juego de Gemelas">
+          </div>
+        </article>
+      </div>
+
+      <button class="flecha-carrusel der" onclick="scrollCarrusel(this, 1)">
+        &#10095;
+      </button>
+    </div>
+
+  </section>
+
+  <section class="espn-body">
+    <main class="contenido-espn">
+      <img src="imagenes/espn-en-disney.webp" alt="ESPN en Disney+" class="logo-espn">
+
+      <section class="titulos-3">
+        <h1>
+          El deporte de ESPN y los eventos en vivo que
+          te apasionan los encontrás en el plan Premium
+          de Disney+.
+        </h1>
+      </section>
+
+      <form class="suscribete-espn">
+        <button type="submit">SUSCRIBIRME AHORA</button>
+      </form>
+    </main>
+    <div class="tarjetas-Deportes">
+      <article class="tarjeta deportes">
+        <div class="imagen-contenedor">
+          <img src="imagenes/champion.webp" alt="Champion">
+        </div>
+      </article>
+
+      <article class="tarjeta deportes">
+        <div class="imagen-contenedor">
+          <img src="imagenes/tour.webp" alt="tour">
+        </div>
+      </article>
+
+
+      <article class="tarjeta deportes">
+        <div class="imagen-contenedor">
+          <img src="imagenes/sudamericana.webp" alt="sudamericana">
+        </div>
+      </article>
+
+      <article class="tarjeta deportes">
+        <div class="imagen-contenedor">
+          <img src="imagenes/us-open.webp" alt="us-open">
+        </div>
+      </article>
+
+      <article class="tarjeta deportes">
+        <div class="imagen-contenedor">
+          <img src="imagenes/premierli.webp" alt="premierli">
+        </div>
+      </article>
+
+      <article class="tarjeta deportes">
+        <div class="imagen-contenedor">
+          <img src="imagenes/liga.webp" alt="liga">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="top10">
+    <h1>Top 10 Hoy en Colombia</h1>
+  </section>
+
+  <div class="carrusel-wrapper carrusel-top-wrapper">
+    <button class="flecha-carrusel izq" type="button" aria-label="Ver títulos anteriores"
+      onclick="scrollCarrusel(this, -1)">&#10094;</button>
+
+    <div class="carrusel-top">
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/thevangalorian.webp" alt="The Mandalorian">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letrastheVangalorian.webp" alt="Logo The Mandalorian">
+          <div class="linea-detalles">
+            <span class="badge-edad">16+</span>
+            <span class="texto-meta">2026 • Ciencia y aventura...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/diabloVistemoda.webp" alt="El Diablo Viste a la Moda">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letraDiablo.webp" alt="Logo El Diablo Viste a la Moda">
+          <div class="linea-detalles">
+            <span class="badge-edad">13+</span>
+            <span class="texto-meta">2026 • Drama, Comedia</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/simpson.webp" alt="Los Simpson">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letrassimpson.webp" alt="Logo Los Simpson">
+          <div class="linea-detalles">
+            <span class="badge-edad">12+</span>
+            <span class="texto-meta">2026 • Parodia, Comedia...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/MarvelAvenger.webp.webp" alt="Avengers Endgame">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letrasmarvel.webp" alt="Logo Marvel">
+          <div class="linea-detalles">
+            <span class="badge-edad">13+</span>
+            <span class="texto-meta">2019 • Superheroes, Acci...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/sing2.webp" alt="Sing 2">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letras-sing2.webp" alt="Logo Sing 2">
+          <div class="linea-detalles">
+            <span class="badge-edad">7+</span>
+            <span class="texto-meta">2021 • Comedia, Música,...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/thanos.webp" alt="Thanos">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letrasthanos.webp" alt="Logo Thanos">
+          <div class="linea-detalles">
+            <span class="badge-edad">13+</span>
+            <span class="texto-meta">2018 • Superheroes, Acci...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/madagascar.webp" alt="Madagascar">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letrasmadagascar.webp" alt="Logo Madagascar">
+          <div class="linea-detalles">
+            <span class="badge-edad">10+</span>
+            <span class="texto-meta">2005 • Acción y aventura...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/sing1.webp" alt="Sing 1">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letras-sin1.webp" alt="Logo Sing 1">
+          <div class="linea-detalles">
+            <span class="badge-edad">7+</span>
+            <span class="texto-meta">2016 • Comedia, Música...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/madagascar-2.webp" alt="Madagascar 2">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letrasmadagascar2.webp" alt="Logo Madagascar 2">
+          <div class="linea-detalles">
+            <span class="badge-edad">7+</span>
+            <span class="texto-meta">2008 • Acción y aventur...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="tarjeta-vertical">
+      <div class="tarjeta-imagen">
+        <img src="imagenes/beeMovie.webp" alt="Bee Movie">
+      </div>
+      <div class="tarjeta-info">
+        <div class="meta-datos">
+          <img src="imagenes/letrasBeemovie.webp" alt="Logo Bee Movie">
+          <div class="linea-detalles">
+            <span class="badge-edad">7+</span>
+            <span class="texto-meta">20 • Comedia, Música...</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    </div>
+
+    <button class="flecha-carrusel der" type="button" aria-label="Ver más títulos"
+      onclick="scrollCarrusel(this, 1)">&#10095;</button>
+  </div>
+
+  <section class="plan-elegir">
+    <div class="planes-intro">
+      <h1>¿Qué plan vas a elegir?</h1>
+      <h2>Podrás modificarlo o cancelarlo cuando quieras.</h2>
+    </div>
+
+    <div class="tabla-planes-contenedor">
+      <table class="tabla-planes">
+        <caption class="visually-hidden">Comparación de planes Disney+</caption>
+        <thead>
+          <tr>
+            <th scope="col" class="columna-detalle"></th>
+            <th scope="col" class="plan plan-premium">
+              <span class="plan-popular">Más popular</span>
+              <strong>Premium</strong>
+              <button type="button" class="boton-plan boton-plan-principal">SELECCIONAR</button>
+              <span>desde <b>COP 44.900 / mes (final)*</b></span>
+              <small>Ahorra un 18% durante 6 meses*</small>
+            </th>
+            <th scope="col" class="plan">
+              <strong>Estándar</strong>
+              <button type="button" class="boton-plan">SELECCIONAR</button>
+              <span>desde <b>COP 29.900 / mes (final)*</b></span>
+              <small>Ahorra un 18% durante 6 meses*</small>
+            </th>
+            <th scope="col" class="plan">
+              <strong>Estándar con anuncios</strong>
+              <button type="button" class="boton-plan">SELECCIONAR</button>
+              <span>desde <b>COP 19.900 / mes (final)*</b></span>
+              <small>Ahorra un 23% durante 6 meses*</small>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Duración de los planes</th>
+            <td>Planes mensuales, semestrales* y anuales disponibles</td>
+            <td>Planes mensuales, semestrales* y anuales disponibles</td>
+            <td>Planes mensuales y semestrales* disponibles</td>
+          </tr>
+          <tr>
+            <th scope="row">Todos los canales de ESPN, torneos y más de 500 eventos exclusivos por mes***</th>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td class="no-incluido" aria-label="No incluido">&#8212;</td>
+            <td class="no-incluido" aria-label="No incluido">&#8212;</td>
+          </tr>
+          <tr>
+            <th scope="row">Estrenos de películas, series originales y clásicos de Disney, Pixar, Marvel, Star Wars,
+              National Geographic y Hulu</th>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+          </tr>
+          <tr>
+            <th scope="row">Películas y series sin interrupciones publicitarias****</th>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td class="no-incluido" aria-label="No incluido">&#8212;</td>
+          </tr>
+          <tr>
+            <th scope="row">Calidad de video hasta 4K UHD/HDR y sonido Dolby Atmos*****</th>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td class="no-incluido" aria-label="No incluido">&#8212;</td>
+            <td class="no-incluido" aria-label="No incluido">&#8212;</td>
+          </tr>
+          <tr>
+            <th scope="row">Dispositivos para ver en simultáneo</th>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th scope="row">Descargas para ver tus favoritos sin conexión ni demoras</th>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td class="incluido" aria-label="Incluido">&#10003;</td>
+            <td>&#8212</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+     <p class="parrafo-largo">* El precio podría variar en otras plataformas. Podrían aplicar cargos de terceros. <br>
+    * Ahorro comparado con el precio/mes actual del plan elegido. Cancela en cualquier momento, con efecto al terminar
+    el período de 6 <br> meses. Podrás acceder al servicio durante ese período. Para cancelar de inmediato, comunícate con el
+    <a href=""> <strong>Centro de ayuda.</strong></a> <br>
+    *** Todos los canales básicos de ESPN están disponibles exclusivamente en el plan Premium. Los eventos en directo y
+    deportivos <br> incluyen publicidad como parte de cada transmisión. <br>
+    **** Todos los planes pueden incluir publicidad en contenidos en vivo (aun en repeticiones) y eventos especiales,
+    antes y después de la <br> reproducción del contenido, promociones de productos y servicios de Disney, patrocinios,
+    inserción de publicidad y similares. Plan <br> Estándar con anuncios: la compatibilidad con dispositivos varía y no es
+    posible descargar contenidos. <br>
+    ***** La calidad de audio y video y las descargas dependen del servicio de internet, las capacidades del
+    dispositivo, el tipo de contenido y el nivel de servicio.</p>
+  </section>
+
+  <section class="agregados">
+    <div class="recien-agregados">
+      <h1>Recién agregados</h1>
+    </div>
+    <div class="carrusel-wrapper">
+      <button class="flecha-carrusel izq" type="button" aria-label="Ver títulos anteriores"
+        onclick="scrollCarrusel(this, -1)">&#10094;</button>
+
+      <div class="tarjetas-grid recientes-grid">
+       
+        <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/911.webp" alt="Título recién agregado 1">
+        </article>
+        <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/snowfall.webp" alt="Título recién agregado 2">
+        </article>
+        <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/THESTAR.webp" alt="Título recién agregado 3">
+        </article>
+        <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/camp-rock.webp" alt="Título recién agregado 4">
+        </article>
+        <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/miraculus.webp" alt="Título recién agregado 5">
+        </article>
+        <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/gragmentos.webp" alt="Título recién agregado 6">
+        </article>
+        <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/gutierrez.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/SPIDEY.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/chadpowers.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/Girls.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/the-drop.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/futurama.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/Madeincorea.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/jurasiwork.webp" alt="Título recién agregado 6">
+        </article>
+         <article class="tarjeta tarjeta-reciente">
+          <img class="imagen-reciente" src="imagenes/NARUTO.webp" alt="Título recién agregado 6">
+        </article>
+      </div>
+
+      <button class="flecha-carrusel der" type="button" aria-label="Ver más títulos"
+        onclick="scrollCarrusel(this, 1)">&#10095;</button>
+    </div>
+  </section>
+
+  <section class="cuando">
+      <h1>Cuando y donde quieras</h1>
+      <h2>Disfruta tus favoritos en cualquier momento y lugar.</h2>
+  </section>
+
+  <article class="zootopia2">
+    <img src="imagenes/zootopia2.webp" alt="">
+  </article>
+
+  <section class="preguntas-frecuentes" aria-labelledby="titulo-faq">
+    <h1 id="titulo-faq">Preguntas frecuentes</h1>
+
+    <div class="faq-lista">
+      <details class="faq-item" open>
+        <summary>¿Qué incluye Disney+?</summary>
+        <div class="faq-contenido">
+          <p>Beneficios de la suscripción a Disney+:</p>
+          <ul>
+            <li>Estrenos de películas, series originales y clásicos de Disney, Pixar, Marvel, Star Wars, National Geographic y Hulu.</li>
+            <li>Los torneos más importantes del mundo y programas de ESPN en vivo.</li>
+            <li>Hasta 4 pantallas a la vez con Disney+ Premium y hasta 2 con Disney+ Estándar.</li>
+            <li>Descarga de títulos, creación de perfiles y control parental para personalizar la experiencia por edad según tu plan.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="faq-item" open>
+        <summary>¿Cómo puedo pagar?</summary>
+        <div class="faq-contenido">
+          <p>Podrás pagar con tarjeta de crédito o débito, Nequi y proveedores locales de TV, telefonía e internet.</p>
+        </div>
+      </details>
+
+      <details class="faq-item" open>
+        <summary>¿Dónde puedo ver Disney+?</summary>
+        <div class="faq-contenido">
+          <p>La aplicación de Disney+ está disponible en tu dispositivo móvil, navegador web, consola de videojuegos, decodificador y Smart TV. Podrás ver la <a href="#">lista completa de dispositivos compatibles en el Centro de ayuda.</a></p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer class="pie-pagina">
+    <div class="pie-contenido">
+      <div class="selector-idioma">
+        <select id="selector-idioma" name="idioma">
+          <option value="es">Español</option>
+          <option value="en">Inglés</option>
+        </select>
+      </div>
+
+      <div class="pie-columnas">
+        <nav class="pie-columna" aria-label="Más información">
+          <h2>Más información</h2>
+          <a href="#">Términos de uso</a>
+          <a href="#">Política de privacidad</a>
+          <a href="#">Publicidad personalizada</a>
+          <a href="#">Acuerdo de Suscripción</a>
+        </nav>
+
+        <nav class="pie-columna" aria-label="Ayuda">
+          <h2>Ayuda</h2>
+          <a href="#">Centro de ayuda</a>
+          <a href="#">Dispositivos compatibles</a>
+          <a href="#">Acerca de Disney+</a>
+        </nav>
+
+        <nav class="pie-columna" aria-label="Marcas">
+          <h2>Marcas</h2>
+          <a href="#">Disney</a>
+          <a href="#">Pixar</a>
+          <a href="#">Marvel</a>
+          <a href="#">Star Wars</a>
+          <a href="#">National Geographic</a>
+          <a href="#">ESPN</a>
+          <a href="#">Hulu</a>
+        </nav>
+
+        <nav class="pie-columna" aria-label="Colecciones">
+          <h2>Colecciones</h2>
+          <a href="#">Todas las colecciones</a>
+          <a href="#">Cortos de Disney</a>
+          <a href="#">Acción y aventura</a>
+          <a href="#">Comedias</a>
+          <a href="#">Documental</a>
+          <a href="#">Drama</a>
+          <a href="#">Musicales</a>
+          <a href="#">Suspenso y misterio</a>
+        </nav>
+      </div>
+
+      <div class="redes-sociales" aria-label="Redes sociales">
+        <a href="https://x.com/disneyplusla" aria-label="X"><img src="imagenes/x.png" alt="X"></a>
+        <a href="https://www.facebook.com/disneyplusla" aria-label="Facebook"><img src="imagenes/facebook (1).png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/disneyplusla/" aria-label="Instagram"><img src="imagenes/instagram_739244.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/@disneyplusla" aria-label="TikTok"><img src="imagenes/tiktok_logo_icon_144802.png.png" alt="TikTok"></a>
+        <a href="https://www.youtube.com/@disneyplusla" aria-label="YouTube"><img src="imagenes/youtube.png" alt="YouTube"></a>
+      </div>
+
+      <img class="logo-pie" src="imagenes/logoDisney.png" alt="Disney+">
+
+      <div class="aviso-legal">
+        <p>© 2026 Disney y su familia de compañías afiliadas. Todos los derechos reservados. <br> Disney+ requiere una suscripción y ser mayor de 18 años. Contenidos sujetos a disponibilidad. <br>
+        El servicio Disney+ es comercializado por The Walt Disney Company Colombia S.A.S., Calle 70 Bis No. 4 – 41, Bogotá D.C., Colombia,  y número de NIT 800.236.937-1. </p>
+      </div>
+    </div>
+  </footer>
+<!--pa que funcionen los botones
+  <script>
+    function scrollCarrusel(button, direction) {
+      const carrusel = button.parentElement.querySelector('.tarjetas-grid, .carrusel-top');
+      const distance = carrusel.clientWidth * 0.8;
+
+      carrusel.scrollBy({
+        left: distance * direction,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+-->
+</body>
+
+</html>
